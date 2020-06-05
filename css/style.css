@@ -331,7 +331,7 @@ template {
   border-radius: 2px;
   font-family: 'Futura Demi', sans-serif;
   font-weight: 500;
-  font-size: 0.93px;
+  font-size: 0.93rem;
   line-height: 15px;
   text-align: center;
   text-transform: uppercase; }
@@ -456,8 +456,8 @@ body {
     align-items: center;
     left: 0;
     bottom: 0;
-    min-width: 17.6px;
-    min-height: 6.92px;
+    min-width: 17.6rem;
+    min-height: 6.92rem;
     background-color: #131313;
     font-family: 'Yeseva One';
     font-style: normal;
