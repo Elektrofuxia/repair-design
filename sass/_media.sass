@@ -33,11 +33,13 @@
    text-decoration: none
   &__button
    display: none
- .title
-  font-size: 2rem
-  letter-spacing: -0.5px
-  max-width: 66%
  .hero
+  &__title
+
+   letter-spacing: -0.5px
+   &--primary
+
+    letter-spacing: -0.5px
   &__scroll-down
    display: none
   &__content
@@ -46,7 +48,7 @@
   &__text
    margin-top: 1rem
    margin-bottom: 2.29rem
-   max-width: 480px
+   max-width: unset
   &__button
    display: block
    margin-bottom: 1.89rem
@@ -58,10 +60,12 @@
    margin-right: 0
    color: $light
    text-decoration: none
- .title
-  font-size: 2rem
+ .hero
+  &__title
   letter-spacing: -0.5px
   max-width: 66%
+   &--primary
+   letter-spacing: -0.5px
   &__content
    margin-top: 20px
    max-width: unset

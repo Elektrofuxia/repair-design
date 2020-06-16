@@ -587,10 +587,9 @@ img {
     text-decoration: none; }
   .contacts__button {
     display: none; }
-  .title {
+  .hero__title {
     font-size: 2rem;
-    letter-spacing: -0.5px;
-    max-width: 66%; }
+    letter-spacing: -0.5px; }
   .hero__scroll-down {
     display: none; }
   .hero__content {
@@ -599,7 +598,7 @@ img {
   .hero__text {
     margin-top: 1rem;
     margin-bottom: 2.29rem;
-    max-width: 480px; }
+    max-width: unset; }
   .hero__button {
     display: block;
     margin-bottom: 1.89rem;
@@ -611,18 +610,18 @@ img {
     margin-right: 0;
     color: #ffffff;
     text-decoration: none; }
-  .title {
+  .hero {
     font-size: 2rem;
     letter-spacing: -0.5px;
     max-width: 66%; }
-    .title__content {
+    .hero__content {
       margin-top: 20px;
       max-width: unset; }
-    .title__text {
+    .hero__text {
       margin-top: 1rem;
       margin-bottom: 2.29rem;
       max-width: unset; }
-    .title__button {
+    .hero__button {
       display: block;
       margin-bottom: 1.89rem;
       max-width: unset;
