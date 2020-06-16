@@ -3,7 +3,11 @@
   font-size: 12px
  .nav
   &__item
-   margin-right: 1rem
+   margin-right: 1.05rem
+ .hero
+  &__button
+   display: block
+   margin-bottom: 1.89rem
 @media screen and ( max-width: 992px )
  .nav
   display: none
@@ -42,7 +46,29 @@
   &__text
    margin-top: 1rem
    margin-bottom: 2.29rem
-   max-width: 100%
+   max-width: 480px
+  &__button
+   display: block
+   margin-bottom: 1.89rem
+   max-width: unset
+   font-size: 1.05rem
+@media screen and ( max-width: 320px )
+ .contacts
+  &__phone
+   margin-right: 0
+   color: $light
+   text-decoration: none
+ .title
+  font-size: 2rem
+  letter-spacing: -0.5px
+  max-width: 66%
+  &__content
+   margin-top: 20px
+   max-width: unset
+  &__text
+   margin-top: 1rem
+   margin-bottom: 2.29rem
+   max-width: unset
   &__button
    display: block
    margin-bottom: 1.89rem

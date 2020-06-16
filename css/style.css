@@ -558,7 +558,10 @@ img {
   html {
     font-size: 12px; }
   .nav__item {
-    margin-right: 1rem; } }
+    margin-right: 1.05rem; }
+  .hero__button {
+    display: block;
+    margin-bottom: 1.89rem; } }
 
 @media screen and (max-width: 992px) {
   .nav {
@@ -596,12 +599,34 @@ img {
   .hero__text {
     margin-top: 1rem;
     margin-bottom: 2.29rem;
-    max-width: 100%; }
+    max-width: 480px; }
   .hero__button {
     display: block;
     margin-bottom: 1.89rem;
     max-width: unset;
     font-size: 1.05rem; } }
+
+@media screen and (max-width: 320px) {
+  .contacts__phone {
+    margin-right: 0;
+    color: #ffffff;
+    text-decoration: none; }
+  .title {
+    font-size: 2rem;
+    letter-spacing: -0.5px;
+    max-width: 66%; }
+    .title__content {
+      margin-top: 20px;
+      max-width: unset; }
+    .title__text {
+      margin-top: 1rem;
+      margin-bottom: 2.29rem;
+      max-width: unset; }
+    .title__button {
+      display: block;
+      margin-bottom: 1.89rem;
+      max-width: unset;
+      font-size: 1.05rem; } }
 
 @media screen and (max-height: 530px) {
   .hero__scroll-down {
