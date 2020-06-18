@@ -589,7 +589,7 @@ img {
   font-family: Futura Book;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.43rem;
+  font-size: 20px;
   line-height: 1.93rem; }
 
 .row {
@@ -673,9 +673,15 @@ img {
   .types__card {
     margin-bottom: 4.29rem; }
   .card__text {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .designproject__card {
+    margin-bottom: 4.29rem; } }
 
 @media screen and (max-width: 576px) {
+  .about {
+    font-size: 15px;
+    max-width: 83%;
+    line-height: 135.84%; }
   .contacts__phone {
     margin-right: 0;
     color: #ffffff;
@@ -712,7 +718,7 @@ img {
     text-decoration: none; }
   .hero__title {
     letter-spacing: -0.5px;
-    max-width: 66%; }
+    max-width: 270px; }
   .hero__content {
     margin-top: 20px;
     max-width: unset; }
