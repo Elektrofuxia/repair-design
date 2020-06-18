@@ -3,8 +3,8 @@
   font-size: 12px
  .nav
   &__item
-   margin-right: 1.05rem
- .hero
+   margin-right: 1.05rem 
+ .hero 
   &__button
    display: block
    margin-bottom: 1.89rem
@@ -25,6 +25,16 @@
   &__button
    display: block
    margin-bottom: 1.89rem
+@media screen and ( max-width: 760px )
+ .row
+  flex-direction: column
+  align-items: center
+ .types
+  &__card
+   margin-bottom: 4.29rem
+ .card
+  &__text
+   margin-left: 0
 @media screen and ( max-width: 576px )
  .contacts
   &__phone
@@ -35,11 +45,11 @@
    display: none
  .hero
   &__title
-
+   font-size: 2rem
    letter-spacing: -0.5px
-   &--primary
-
-    letter-spacing: -0.5px
+   max-width: 260px
+   font-style: normal
+   font-weight: normal
   &__scroll-down
    display: none
   &__content
@@ -48,12 +58,19 @@
   &__text
    margin-top: 1rem
    margin-bottom: 2.29rem
-   max-width: unset
+   max-width: 330px
+   font-style: normal
+   font-weight: normal
   &__button
    display: block
    margin-bottom: 1.89rem
    max-width: unset
    font-size: 1.05rem
+ .designproject
+  &__about
+   font-size: 1.2rem
+   letter-space: 1
+   line-height: 1.4
 @media screen and ( max-width: 320px )
  .contacts
   &__phone
@@ -62,10 +79,8 @@
    text-decoration: none
  .hero
   &__title
-  letter-spacing: -0.5px
-  max-width: 66%
-   &--primary
    letter-spacing: -0.5px
+   max-width: 66%
   &__content
    margin-top: 20px
    max-width: unset
