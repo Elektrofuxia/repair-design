@@ -370,20 +370,24 @@ body {
 img {
   max-width: 100%; }
 
-.section-title {
+.section-title__image {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section-title__image::before, .section-title__image::after {
+    content: '';
+    width: 32px;
+    height: 2px;
+    background-color: #E3B873;
+    margin: 0 10px; }
+
+.section-title__heading {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Yeseva One', cursive; }
-  .section-title__image {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .section-title__image::before, .section-title__image::after {
-      content: '';
-      width: 32px;
-      height: 2px;
-      background-color: #E3B873;
-      margin: 0 10px; }
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px; }
 
 .header {
   position: fixed;
@@ -577,9 +581,11 @@ img {
   margin-bottom: 2rem; }
 
 .about {
+  margin: auto;
+  max-width: 741px;
+  text-align: center;
   margin-top: -1rem;
   margin-bottom: 3rem;
-  text-align: center;
   font-family: Futura Book;
   font-style: normal;
   font-weight: normal;
@@ -620,7 +626,7 @@ img {
   color: #959595;
   margin-bottom: 2.5rem; }
 
-.card__pricetag {
+.card__pricetag2 {
   position: absolute;
   left: 0;
   bottom: -1.79rem;
@@ -630,7 +636,7 @@ img {
   text-transform: uppercase;
   background-color: #E3B873;
   color: #ffffff;
-  padding: 1.214rem 4rem; }
+  padding: 1.214rem 5.7rem 1.214rem 2.357rem; }
 
 @media screen and (max-width: 1200px) {
   html {
@@ -656,7 +662,9 @@ img {
     margin-bottom: 3.5rem; }
   .hero__button {
     display: block;
-    margin-bottom: 1.89rem; } }
+    margin-bottom: 1.89rem; }
+  .designproject__about {
+    max-width: 600px; } }
 
 @media screen and (max-width: 760px) {
   .row {
@@ -695,11 +703,7 @@ img {
     display: block;
     margin-bottom: 1.89rem;
     max-width: unset;
-    font-size: 1.05rem; }
-  .designproject__about {
-    font-size: 1.2rem;
-    letter-space: 1;
-    line-height: 1.4; } }
+    font-size: 1.05rem; } }
 
 @media screen and (max-width: 320px) {
   .contacts__phone {
