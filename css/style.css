@@ -818,20 +818,22 @@ img {
     max-width: unset;
     font-size: 1.05rem; } }
 
+@media screen and (max-width: 360px) {
+  .hero__title {
+    font-size: 1.7rem; }
+  .hero__content {
+    margin-top: -45px; }
+  .hero__text {
+    font-size: 1.2rem;
+    max-width: 255px; } }
+
 @media screen and (max-width: 320px) {
   .contacts__phone {
     margin-right: 0;
     color: #ffffff;
     text-decoration: none; }
-  .hero__title {
-    letter-spacing: -0.5px;
-    max-width: 270px; }
   .hero__content {
-    margin-top: 20px;
-    max-width: unset; }
-  .hero__text {
-    margin-top: 1rem;
-    margin-bottom: 2.29rem;
+    margin-top: -30px;
     max-width: unset; }
   .hero__button {
     display: block;

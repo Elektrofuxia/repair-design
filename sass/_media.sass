@@ -81,6 +81,15 @@
    margin-bottom: 1.89rem
    max-width: unset
    font-size: 1.05rem
+@media screen and ( max-width: 360px )
+ .hero
+  &__title
+   font-size: 1.7rem
+  &__content
+   margin-top: -45px
+  &__text
+   font-size: 1.2rem
+   max-width: 255px
 @media screen and ( max-width: 320px )
  .contacts
   &__phone
@@ -88,15 +97,8 @@
    color: $light
    text-decoration: none
  .hero
-  &__title
-   letter-spacing: -0.5px
-   max-width: 270px
   &__content
-   margin-top: 20px
-   max-width: unset
-  &__text
-   margin-top: 1rem
-   margin-bottom: 2.29rem
+   margin-top: -30px
    max-width: unset
   &__button
    display: block
