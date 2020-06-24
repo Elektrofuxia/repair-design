@@ -590,7 +590,7 @@ img {
   font-family: Yeseva One, cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.29rem;
+  font-size: 1.286rem;
   color: #363636;
   margin-top: 0;
   margin-bottom: 0.7rem; }
@@ -613,7 +613,8 @@ img {
   text-transform: uppercase;
   background-color: #E3B873;
   color: #ffffff;
-  padding: 1.214rem 2.6rem; }
+  padding: 1.214rem 2.6rem;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1); }
 
 .designproject {
   padding-top: 1rem; }
@@ -625,7 +626,7 @@ img {
   margin: auto;
   max-width: 741px;
   text-align: center;
-  margin-top: -1rem;
+  margin-top: -0.5rem;
   margin-bottom: 3rem;
   font-family: Futura Book;
   font-style: normal;
@@ -654,7 +655,7 @@ img {
   font-family: Yeseva One, cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.29rem;
+  font-size: 1.286rem;
   color: #363636;
   margin-top: 0;
   margin-bottom: 0.7rem; }
@@ -677,7 +678,8 @@ img {
   text-transform: uppercase;
   background-color: #E3B873;
   color: #ffffff;
-  padding: 1.214rem 5.7rem 1.214rem 2.357rem; }
+  padding: 1.214rem 5.7rem 1.214rem 2.357rem;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1); }
 
 .modal {
   opacity: 0;
@@ -700,6 +702,7 @@ img {
     position: relative;
     max-width: 36.36rem;
     background: #131313 url("../img/bg-lines.svg") no-repeat center;
+    background-size: cover;
     padding: 2.357rem 3.5rem 1.928rem;
     color: #ffffff; }
   .modal__close {
@@ -766,7 +769,13 @@ img {
     display: block;
     margin-bottom: 1.89rem; }
   .designproject__about {
-    max-width: 600px; } }
+    max-width: 600px; }
+  .section-title__heading {
+    font-size: 22px; } }
+
+@media screen and (max-width: 860px) {
+  .card__title {
+    max-width: 150px; } }
 
 @media screen and (max-width: 760px) {
   .row {
@@ -774,10 +783,14 @@ img {
     align-items: center; }
   .types__card {
     margin-bottom: 4.29rem; }
-  .card__text {
+  .section-title__heading {
+    font-size: 22px; }
+  .section-title__text {
     margin-left: 0; }
   .designproject__card {
-    margin-bottom: 4.29rem; } }
+    margin-bottom: 4.29rem; }
+  .card__title {
+    max-width: none; } }
 
 @media screen and (max-width: 576px) {
   .designproject {
@@ -816,7 +829,13 @@ img {
     display: block;
     margin-bottom: 1.89rem;
     max-width: unset;
-    font-size: 1.05rem; } }
+    font-size: 1.05rem; }
+  .section-title__heading {
+    font-size: 22px; } }
+
+@media screen and (max-width: 380px) {
+  .designproject__about {
+    max-width: 300px; } }
 
 @media screen and (max-width: 360px) {
   .hero__title {
@@ -825,7 +844,9 @@ img {
     margin-top: -45px; }
   .hero__text {
     font-size: 1.2rem;
-    max-width: 255px; } }
+    max-width: 255px; }
+  .section-title__heading {
+    font-size: 22px; } }
 
 @media screen and (max-width: 320px) {
   .contacts__phone {
@@ -839,7 +860,9 @@ img {
     display: block;
     margin-bottom: 1.89rem;
     max-width: unset;
-    font-size: 1.05rem; } }
+    font-size: 1.05rem; }
+  .section-title__heading {
+    font-size: 22px; } }
 
 @media screen and (max-height: 530px) {
   .hero__scroll-down {
