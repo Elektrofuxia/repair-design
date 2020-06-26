@@ -420,9 +420,10 @@ body {
 img {
   max-width: 100%; }
 
-.section--dark {
+.projects--dark {
   background-color: #131313;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-bottom: 6.597rem; }
 
 .section-title__image {
   display: flex;
